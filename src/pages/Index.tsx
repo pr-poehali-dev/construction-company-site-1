@@ -92,8 +92,12 @@ const Index = () => {
       <header className="fixed top-0 left-0 right-0 z-50 bg-primary text-primary-foreground shadow-lg">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <Icon name="Building2" size={32} className="text-accent" />
+            <div className="flex items-center space-x-3">
+              <img 
+                src="https://cdn.poehali.dev/files/WFUwU5Y4LJNjuF03D-kb-0qYFojEiOky3Cclam4q2SK2xLpQQYJxA8nEHufX8fTh_8cKOg0XlGZc-1Uo166z0DDj.jpg" 
+                alt="Мега-Строй" 
+                className="h-12 w-12 object-contain"
+              />
               <div>
                 <h1 className="text-2xl font-bold font-heading">Мега-Строй</h1>
                 <p className="text-xs opacity-90">Строительство дорог с 2012 года</p>
@@ -360,7 +364,11 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <Icon name="Building2" size={24} className="text-accent" />
+              <img 
+                src="https://cdn.poehali.dev/files/WFUwU5Y4LJNjuF03D-kb-0qYFojEiOky3Cclam4q2SK2xLpQQYJxA8nEHufX8fTh_8cKOg0XlGZc-1Uo166z0DDj.jpg" 
+                alt="Мега-Строй" 
+                className="h-8 w-8 object-contain"
+              />
               <p className="font-semibold">ООО "Мега-Строй"</p>
             </div>
             <p className="text-sm opacity-75">© 2012-2024 Все права защищены</p>
